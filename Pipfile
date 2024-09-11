@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dnslib = "*"
+pylint = "*"
+black = "*"
+tld = "*"
+validators = "*"
+validator-collection = "*"
+dnspython = "*"
+django = "*"
+django-allauth = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
